@@ -7,3 +7,12 @@ object ballesta {
 	}
 	
 }
+
+object jabalina {
+	var estaCargada = true 
+	method estaCargada() = estaCargada 
+	method potencia() = 30
+	method usar() {
+		estaCargada = false
+	}
+}
