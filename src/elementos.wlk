@@ -1,3 +1,4 @@
+import armas.*
 
 object castillo {
 	var defensa = 150
