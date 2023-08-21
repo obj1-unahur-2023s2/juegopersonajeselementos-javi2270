@@ -1,3 +1,5 @@
+import armas.*
+import elementos.*
 
 object floki {
 	var arma

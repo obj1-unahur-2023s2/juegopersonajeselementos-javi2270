@@ -1,3 +1,4 @@
+
 object ballesta {
 	var flechas = 10
 	method potecia() = 4
