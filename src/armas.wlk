@@ -1,7 +1,7 @@
 object ballesta {
 	var flechas = 10
 	method potecia() = 4
-	method estaCargada() = flechas > 10
+	method estaCargada() = flechas > 0
 	method usar() {
 		flechas --
 	}
@@ -13,6 +13,6 @@ object jabalina {
 	method estaCargada() = estaCargada 
 	method potencia() = 30
 	method usar() {
-		estaCargada = false
+		estaCargada = false 
 	}
 }
