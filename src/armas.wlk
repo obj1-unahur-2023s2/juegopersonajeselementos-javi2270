@@ -1,7 +1,7 @@
 
 object ballesta {
 	var flechas = 10
-	method potecia() = 4
+	method potencia() = 4
 	method estaCargada() = flechas > 0
 	method usar() {
 		flechas --
